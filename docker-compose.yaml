@@ -1,0 +1,21 @@
+version: "3"
+services:
+  api:
+    image: node:12
+    ports:
+      - "3000:3000"
+    env_file: .env
+    volumes:
+      - .:/usr/src/app
+    working_dir: /usr/src/app
+    restart: always
+    container_name: nodejs
+    command: bash -c "npm install && npm start"
+    depends_on: 
+      - mongo
+  mongo:
+    image: mongo
+    volumes:
+      - ./data:/data/db
+    ports:
+      - "27017:27017"
