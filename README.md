@@ -33,9 +33,13 @@ docker-compose up -d
 * `/usr/src/app` - API
 * `/data/db` - Mongo
 
-#### Rota WeebHook
+#### Rotas
 
-* A rota é /api/v1/weebhook/deal
+###### Rota WebHook
+* http://localhost/api/v1/weebhook/deal
+
+###### Rota Pedidos
+* Basta dar um get em http://localhost/api/v1/orders para pegar os pedidos
 
 ## Authors
 
