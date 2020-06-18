@@ -36,10 +36,10 @@ docker-compose up -d
 #### Rotas
 
 ###### Rota WebHook
-* http://localhost/api/v1/weebhook/deal
+* http://localhost:3000/api/v1/weebhook/deal
 
 ###### Rota Pedidos
-* Basta dar um get em http://localhost/api/v1/orders para pegar os pedidos
+* Basta dar um get em http://localhost:3000/api/v1/orders para pegar os pedidos
 
 ## Authors
 
