@@ -1,0 +1,45 @@
+{
+  "name": "linkapi",
+  "version": "1.0.0",
+  "description": "Teste LinkApi",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --inspect=9300 server.js",
+    "start": "babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasft01/linkapi.git"
+  },
+  "keywords": [
+    "api",
+    "restful",
+    "linkapi",
+    "pipedrive",
+    "bling"
+  ],
+  "author": "lucasft01",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucasft01/linkapi/issues"
+  },
+  "homepage": "https://github.com/lucasft01/linkapi#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19"
+  }
+}
